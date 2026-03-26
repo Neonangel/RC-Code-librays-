@@ -1,0 +1,43 @@
+Instructions-Rc-car-Neo-pixel-1.0
+
+You are working on a multi-file Arduino project.
+
+Board:
+Arduino Nano RP2040 Connect
+Architecture: Arduino Mbed OS core (mbed_rp2040)
+
+Scope restriction (very important):
+
+Only read and analyze the files;
+- 04_neo_pixel
+- Adafruit_NeoPixel (copy 1)
+
+Ignore all other files in the project.
+All files except the NeoPixel module are read-only and out of scope.
+Limit your reasoning to the NeoPixel module only.
+
+Assume the rest of the project already works.
+
+Task:
+Work only on NeoPixel LED control.
+
+Hardware:
+WS2812 / NeoPixel strip
+Pin 6
+Using Adafruit_NeoPixel library compatible with RP2040 Mbed
+
+Rules:
+- Do not modify other files
+- Do not suggest changes to other modules
+- Only output code related to NeoPixel
+- Show minimal changes only
+- Do not rewrite the whole project
+
+Code quality requirements:
+- Make a comment for every function
+- Each function comment must explain:
+  - what the function does
+  - why the function is needed
+- Use clear embedded-style comments
+- Keep code compatible with Mbed RP2040 core
+- Avoid blocking delays
